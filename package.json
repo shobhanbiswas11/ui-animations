@@ -1,0 +1,27 @@
+{
+  "name": "ui-animation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shobhanbiswas11/ui-animations.git",
+  "author": "shobhanbiswas11 <shobhan.biswas11@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "tsc"
+  },
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^8.0.0",
+    "typescript": "^3.9.6",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "gsap": "^3.4.0"
+  }
+}
