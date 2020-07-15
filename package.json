@@ -1,6 +1,6 @@
 {
   "name": "test-ui-animations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "https://github.com/shobhanbiswas11/ui-animations.git",
   "author": "Shobhan Biswas",
@@ -11,7 +11,7 @@
     "prepare": "yarn build"
   },
   "files": [
-    "build/**/*"
+    "lib/**/*"
   ],
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
