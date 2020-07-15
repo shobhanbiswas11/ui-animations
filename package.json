@@ -1,6 +1,6 @@
 {
-  "name": "test-ui-animations",
-  "version": "1.0.13",
+  "name": "ui-motion",
+  "version": "0.0.2",
   "main": "dist/main.bundle.js",
   "module": "lib/index.js",
   "types": "lib/index.d.ts",
