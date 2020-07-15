@@ -1,6 +1,6 @@
 {
   "name": "test-ui-animations",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "main": "dist/main.bundle.js",
   "module": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,8 +15,7 @@
   },
   "files": [
     "lib",
-    "dist",
-    "./jsconfig.json"
+    "dist"
   ],
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
