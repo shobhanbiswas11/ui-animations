@@ -1,6 +1,6 @@
 {
   "name": "test-ui-animations",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/main.bundle.js",
   "module": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -9,8 +9,9 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "yarn webpack && tsc",
-    "prepare": "yarn build"
+    "build": "tsc",
+    "prepare": "yarn build",
+    "prebuild": "webpack && rm ./dist/index.html"
   },
   "files": [
     "lib",
