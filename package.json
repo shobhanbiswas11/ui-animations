@@ -1,17 +1,20 @@
 {
   "name": "test-ui-animations",
-  "version": "1.0.4",
-  "main": "index.js",
+  "version": "1.0.6",
+  "main": "dist/main.bundle.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": "https://github.com/shobhanbiswas11/ui-animations.git",
   "author": "Shobhan Biswas",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "tsc",
+    "build": "yarn webpack && tsc",
     "prepare": "yarn build"
   },
   "files": [
-    "./lib/*"
+    "lib",
+    "dist"
   ],
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
@@ -23,7 +26,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "gsap": "^3.4.0",
-    "test-ui-animations": "^1.0.3"
+    "gsap": "^3.4.0"
   }
 }
